@@ -2,22 +2,38 @@
 layout: 'base.njk'
 permalink: "articles/releases/{{ name |slug }}/"
 ---
+    <main>
+      <div style="padding: 5%;" class="row">
+        <div id="nuh" class="one-third column">
+          <div>
+          <h1>{{ name }}</h1>
+          <img style="width: 80%;" src="/assets/releases/{{ name | slug}}.jpg" alt="{{ thumbAlt }}">
+          <!--this bit below loads tag links. very scary shit. don't mess with these again-->
+          {% include 'artistArticleTaglinks.njk' %}
+          </div>
+          <div>
+            <p>{{ content | safe }}</p>
+          </div>
+        </div>
 
-<article class="main-article">
-<div class="container container--narrow flow">
-  
-    <h1 class="article-title">
-      {{ title }}
-    </h1>
-    <figure class="main-article__figure">
-      <img src="{{ image }}" alt="{{ imageAlt }}">
-      <figcaption>
-        {{ imageAlt}}
-      </figcaption>
-    </figure>
-    
-    {{ content | safe}}
-  
-</div>
-</article>
+        <div class="two-thirds column">
+          <h1>Releases</h1>
+          <p id="albumaside">
+            releases go here
+                  <ul><h5>
+                    {{ related.njk }}
 
+              {% for post in collections.thecleanersfromvenus %}
+                <li><a href="articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+              {% endfor %}
+              </h5>
+              </ul>
+
+
+
+          </p>
+        </div>
+        
+
+      </div>
+      </main>

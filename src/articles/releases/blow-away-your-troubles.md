@@ -8,10 +8,10 @@ artist:
     - The Cleaners From Venus
 year: 
     - 1981
-thumb: /assets/blog/article-4.jpg
 thumbAlt: The cleaners from venus in xxxx
 description: An innovative lo-fi group from the early 80's
 tags: 
+    - thecleanersfromvenus
 ---
 
-<mark>The Cleaners From Venus</mark> were blah blah blah something, article here, etc
+<mark>Blow Away Your Troubles</mark> were blah blah blah something, article here, etc
