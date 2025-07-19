@@ -1,10 +1,10 @@
 ---
-name: The Cleaners From Venus
+name: Martin Newell
 genre:
     - Indie Rock
     - Jangle Pop
     - Blah Blah Blah
-members:
+of:
     - Martin Newell
     - Lawrence "Lol" Elliot
     - Giles Smith
@@ -15,14 +15,12 @@ yearsActive:
     - 2020s
 thumbAlt: The cleaners from venus in xxxx
 description: An innovative lo-fi group from the early 80's
+
 tags: 
 ---
 
-
 <mark>The Cleaners From Venus</mark> were blah blah blah something, article here, etc
 
-{{ the-cleaners-from-venus.njk }}
-
- {% for post in collections.thecleanersfromvenus | sort(attribute="post.data.year") %} 
+ {% for post in collections.martinnewell | sort(attribute="post.data.year") %} 
     <li><a href="/articles/releases/{{ post.data.name | slug }}/">{{ post.data.name }} - {{ post.data.year }}</a></li>
     {% endfor %}

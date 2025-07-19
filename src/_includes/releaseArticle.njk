@@ -16,21 +16,6 @@ permalink: "articles/releases/{{ name |slug }}/"
           </div>
         </div>
 
-        <div class="two-thirds column">
-          <h1>Releases</h1>
-          <p id="albumaside">
-            releases go here
-                  <ul><h5>
-                    {{ related.njk }}
-
-              {% for post in collections.thecleanersfromvenus %}
-                <li><a href="articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
-              {% endfor %}
-              </h5>
-              </ul>
-
-
-
           </p>
         </div>
         

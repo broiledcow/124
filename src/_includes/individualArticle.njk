@@ -1,6 +1,6 @@
 ---
 layout: 'base.njk'
-permalink: "articles/artists/{{ name |slug }}/"
+permalink: "/articles/individuals/{{ name |slug }}/"
 ---
 
 
@@ -12,11 +12,11 @@ permalink: "articles/artists/{{ name |slug }}/"
           <h1>{{ name }}</h1>
           <img style="width: 80%;" src="/assets/pfps/{{ name | slug}}.jpg" alt="{{ thumbAlt }}">
           <!--this bit below loads tag links. very scary shit. don't mess with these again-->
-          {% include 'artistArticleTaglinks.njk' %}
+          {% include 'individualArticleTaglinks.njk' %}
           </div>
           <div>
             <p>{{ content | safe }}</p>
-            <p>{{ the-cleaners-from-venus.njk }}</p>
+            
           </div>
         </div>
 

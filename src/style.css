@@ -143,6 +143,7 @@ body {
   font-size: 1.2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1;
   text-width: 50%;
+  text-align: center;
   background: rgba(179, 134, 179, 0.25);    /*  10% opaque green */ 
   font-weight: 500;
   font-family: "Courier New";
@@ -192,7 +193,7 @@ body {
     color: #000; 
     text-align: center;} 
 
-  @media screen and (min-width: 200px) {
+  @media screen and (max-width: 200px) {
     #center {
     font-size: 1.3em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.3;

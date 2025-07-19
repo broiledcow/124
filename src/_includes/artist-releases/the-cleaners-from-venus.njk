@@ -1,0 +1,5 @@
+<p>
+ {% for post in collections.thecleanersfromvenus | sort(attribute="post.data.year") %} 
+    <li><a href="/articles/releases/{{ post.data.name | slug }}/">{{ post.data.name }} - {{ post.data.year }}</a></li>
+    {% endfor %}
+    </p>
