@@ -1,0 +1,29 @@
+---
+layout: 'base.njk'
+permalink: "articles/artists/{{ name |slug }}/"
+---
+    <main>
+      <div class="row">
+        <div id="nuh" class="one-third column">
+          <div>
+          <h1>{{ name }}</h1>
+          <img src="{{ thumb }}" alt="{{ thumbAlt }}">
+          <!--this bit below loads tag links. very scary shit. don't mess with these again-->
+          {% include 'artistArticleTaglinks.njk' %}
+          </div>
+          <div>
+            <p>{{ content | safe }}</p>
+          </div>
+        </div>
+
+        <div class="two-thirds column">
+          <h1>Releases</h1>
+          <p id="albumaside">
+            releases go here
+
+          </p>
+        </div>
+        
+
+      </div>
+      </main>

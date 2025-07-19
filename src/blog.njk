@@ -9,11 +9,11 @@ layout: 'base.njk'
 <h1 class="section-title">Recent articles</h1>
 
 <ul role="list" class="articles__list flow">
-
-  {%- for post in collections.featured | reverse-%}
+  <p>
+  {%- for post in collections.artistArticles | reverse-%}
     {%- include 'article-snippet.njk'-%}
   {%- endfor -%}
-
+    </p>
 </ul>
 
   </div>

@@ -1,0 +1,12 @@
+---
+title: Releases
+description: Here's a list of all the releases logged on this site. 
+type: releases
+layout: "Directory Template.njk"
+---
+
+<ul>
+{% for post in collections.releases %}
+  <li><a href="{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+{% endfor %}
+</ul>

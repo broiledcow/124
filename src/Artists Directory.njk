@@ -1,0 +1,12 @@
+---
+title: Artists
+description: 
+type: artists
+layout: "Directory Template.njk"
+---
+
+<ul>
+{% for post in collections.artists %}
+  <li><a href="{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+{% endfor %}
+</ul>

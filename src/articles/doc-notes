@@ -1,0 +1,12 @@
+List of notes to myself about choices I'm making with regards to article formats and stuff
+
+For ARTIST ARTICLES tags
+---
+name: the artist's name
+genre: the genre of the artist
+yearsActive: 2021-06-01
+thumb: /assets/blog/article-4.jpg
+imageAlt: This is a test
+description: simple desc of year, 
+tags: tag t
+---

@@ -1,0 +1,34 @@
+      <p>
+      Members: 
+      {% set comma = joiner() %}
+      {% for tag in members -%}
+        {% if tag !== 'posts' %}
+          {{ comma() }} <span class="tag"><a target="_blank" href="/{{ tag }}">{{ tag }}</a></span>
+        {% endif %}
+      {%- endfor %}
+      <br>
+      Genre: 
+      {% set comma = joiner() %}
+      {% for tag in genre -%}
+        {% if tag !== 'posts' %}
+          {{ comma() }} <span class="tag"><a target="_blank" href="Genre/{{ tag }}">{{ tag }}</a></span>
+        {% endif %}
+      {%- endfor %}
+      <br>
+      Years Active: 
+      {% set comma = joiner() %}
+      {% for tag in yearsActive -%}
+        {% if tag !== 'posts' %}
+          {{ comma() }} <span class="tag"><a target="_blank" href="/{{ tag }}">{{ tag }}</a></span>
+        {% endif %}
+      {%- endfor %}
+
+
+
+
+
+
+
+
+
+      </p>

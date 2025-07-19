@@ -1,0 +1,36 @@
+---
+title: 1-2-4
+layout: "base.njk"
+permalink: "/index.html"
+---
+
+<div class="row">
+    <div class="one-third column"></div>
+    <div class="one-third column">
+    <h4>What is Cassette Culture?</h4>
+    <p>test text</p>
+    </div>
+    <div class="one-third column"></div>
+  </div>
+
+<div class="row">
+
+    <div class="one-half column">
+      <h3>Artists</h3>
+      <ul>
+      {% for post in collections.artists %}
+        <li><a href="{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="one-half column">
+      <h3>Releases</h3>
+      <ul>
+      {% for post in collections.releases %}
+        <li><a href="{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+
