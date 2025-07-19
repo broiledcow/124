@@ -3,15 +3,20 @@ title: 1-2-4
 layout: "base.njk"
 permalink: "/index.html"
 ---
-
 <div id="center" class="row">
-    <h4>A site dedicated to Cassette Culture</h4>
-    <p>uhhhh text goes here?</p>
+  <h1><br></h1>
+  </div>  
+<div id="center" class="row" style="margin-left: 30%; margin-right: 30%;">
+    <p><mark>One True Faith</mark> is a passion project to collect info about cool or obscure indie tape 
+    releases. There is no strict criteia, Just got to be tape and dope.
+    <br><br>If <mark>you</mark> know of a dope indie tape release and want it added, 
+    dm me on twitter <a href="https://x.com/Jack_Clark_Ross">[@Jack_Clark_Ross]</a>
+    </p>
   </div>
 
 <div style="margin-left: 10%; margin-right: 10%;" class="row">
 
-    <div class="one-half column">
+    <div style="background: rgba(97, 118, 177, 0.25);" class="one-half column">
       <h3>Artists</h3>
       <ul><h5>
       {% for post in collections.artists %}
@@ -20,8 +25,7 @@ permalink: "/index.html"
       </h5>
       </ul>
     </div>
-
-    <div class="one-half column">
+    <div style="background: rgba(177, 133, 97, 0.25);" class="one-half column">
       <h3>Releases</h3>
       <ul><h5>
       {% for post in collections.releases %}
