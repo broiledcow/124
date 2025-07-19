@@ -171,6 +171,17 @@ body {
   font-family: "Courier New";
   color: #000; }
 
+  #center {
+  font-size: 1.3em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1;
+  font-weight: 700;
+  font-family: "Courier New";
+  color: #000; 
+  text-align: center;} 
+
+
  #header {
   padding-top: 100;
   background-image: url('IMAGES/navbar.png');

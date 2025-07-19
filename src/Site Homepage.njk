@@ -4,32 +4,30 @@ layout: "base.njk"
 permalink: "/index.html"
 ---
 
-<div class="row">
-    <div class="one-third column"></div>
-    <div class="one-third column">
+<div id="center" class="row">
     <h4>What is Cassette Culture?</h4>
-    <p>test text</p>
-    </div>
-    <div class="one-third column"></div>
+    <p>uhhh I ain't got that far yet</p>
   </div>
 
-<div class="row">
+<div style="margin-left: 10%; margin-right: 10%;" class="row">
 
     <div class="one-half column">
       <h3>Artists</h3>
-      <ul>
+      <ul><h5>
       {% for post in collections.artists %}
-        <li><a href="{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+        <li><a href="articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
       {% endfor %}
+      </h5>
       </ul>
     </div>
 
     <div class="one-half column">
       <h3>Releases</h3>
-      <ul>
+      <ul><h5>
       {% for post in collections.releases %}
-        <li><a href="{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
+        <li><a href="articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
       {% endfor %}
+      </h5>
       </ul>
     </div>
   </div>
