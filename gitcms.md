@@ -12,6 +12,10 @@ collections:
           - individualArticle.njk
           - artistArticle.njk
           - individualArticle.njk
+          - artistArticle.njk
+          - individualArticle.njk
+          - artistArticle.njk
+          - individualArticle.njk
         name: layout
         required: true
         type: multi_select
