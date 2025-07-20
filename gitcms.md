@@ -1,78 +1,80 @@
 ---
-repo: broiledcow/124
-media_path: /src/articles
-website_url: one-true.faith
 collections:
-  - name: Artists
-    git_path: /src/articles/artists
+  - file_extension: .md
     filename_pattern: title
-    file_extension: .md
+    git_path: /src/articles/artists
     metadata_schema:
       - name: name
+        required: true
         type: singleline
-        required: true
-      - name: layout
-        type: multi_select
-        required: true
-        allowed_values:
+      - allowed_values:
           - artistArticle.njk
           - individualArticle.njk
+          - artistArticle.njk
+          - individualArticle.njk
+        name: layout
+        required: true
+        type: multi_select
       - name: genre
-        type: multiline
         required: true
+        type: multiline
       - name: members
-        type: multiline
         required: false
+        type: multiline
       - name: yearsActive
-        type: multiline
         required: true
-      - name: thumbAlt
-        type: singleline
-        required: false
-      - name: of
         type: multiline
+      - name: thumbAlt
         required: false
-  - name: Releases
-    git_path: /src/articles/releases
+        type: singleline
+      - name: of
+        required: false
+        type: multiline
+    name: Artists
+  - file_extension: .md
     filename_pattern: title
-    file_extension: .md
+    git_path: /src/articles/releases
     metadata_schema:
       - name: name
-        type: singleline
         required: true
+        type: singleline
       - name: type
-        type: singleline
         required: true
+        type: singleline
       - name: genre
-        type: multiline
         required: true
+        type: multiline
       - name: tracklistnotes
-        type: singleline
         required: false
+        type: singleline
       - name: side1
-        type: singleline
         required: true
+        type: singleline
       - name: tracklistA
-        type: multiline
         required: true
+        type: multiline
       - name: side2
-        type: singleline
         required: true
+        type: singleline
       - name: tracklistB
-        type: multiline
         required: true
+        type: multiline
       - name: artist
+        required: true
         type: multiline
-        required: true
       - name: date
+        required: true
         type: datetime
-        required: true
       - name: year
-        type: singleline
         required: true
+        type: singleline
       - name: thumbAlt
-        type: singleline
         required: true
+        type: singleline
+    name: Releases
+media_path: /src/articles
+repo: broiledcow/124
+website_url: one-true.faith
 ---
 # GitCMS Configuration File
 > [!WARNING]
