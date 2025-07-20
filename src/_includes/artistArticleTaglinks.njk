@@ -19,7 +19,7 @@
       {% set comma = joiner() %}
       {% for tag in yearsActive -%}
         {% if tag !== 'posts' %}
-          {{ comma() }} <span class="tag"><a target="_blank" href="/{{ tag }}">{{ tag }}</a></span>
+          {{ comma() }} <span class="tag">{{ tag }}</span>
         {% endif %}
       {%- endfor %}
 

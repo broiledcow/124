@@ -5,6 +5,8 @@ genre:
     - Indie Rock
     - Jangle Pop
     - Blah Blah Blah
+tracklistnotes:
+    - Watch out! This release has alternate track listings!
 tracklist:
     - track 1
     - track 2

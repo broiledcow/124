@@ -1,6 +1,6 @@
 ---
-layout: artistArticle.njk
 name: The Cleaners From Venus
+layout: artistArticle.njk
 genre:
     - Indie Rock
     - Jangle Pop
@@ -20,7 +20,7 @@ tags:
 ---
 
 
-<mark>The Cleaners From Venus</mark> were blah blah blah something, article here, etc
+<mark>The Cleaners From Venus</mark> are a band from Wivenhoe, England. 
 
 <div>
 

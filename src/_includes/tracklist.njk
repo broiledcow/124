@@ -1,5 +1,6 @@
       
       <h5 style="inline">Tracks on "{{ name }}"
+        <br><sup><sup><sup><mark>{{tracklistnotes}}</mark></sup></sup></sup>
         <sup>{% for tag in tracklist -%}
         {% if tag !== 'posts' %}
           <br><span class="tag">{{ tag }}</span>
