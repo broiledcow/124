@@ -96,7 +96,7 @@ In 2012, Captured Tracks released a special vinyl edition of *Blow Away Your Tro
 <p>Martin Newell has stated that there were 40 songs recorded for <i>Blow Away Your Troubles</i>. Given the miniscule number of
     copies made, most songs not included on the Captured Tracks reissue are hard to find or simply lost. 
     <br><br>
-    Here is a list of all songs not officially accessible as of the writing of this article. I've included the audio for ones I've found, as well as polishing up the audio a bit.
+    Here is a list of all songs not officially accessible as of the writing of this article. I've included the audio for ones I've been able to get my hands on, as well as polishing up the audio a bit.
 
     <mark>"Canon" songs</mark>
     <br><a target="_blank" href="/assets/audio/changechangechange.mp3">Change Change Change</a>
@@ -104,7 +104,7 @@ In 2012, Captured Tracks released a special vinyl edition of *Blow Away Your Tro
     <br><br><mark>"Noncanonical" songs</mark>
     <br>Look At The Wall
     <br>The Meltdown Watutsi [Known to exist, in posession of Lawrence Elliot]
-    <br><a target="_blank" href="/assets/audio/unknowncleanersfromvenussong.mp3">[unknown, partial]</a>
+    <br><a target="_blank" href="/assets/audio/unknowncleanersfromvenussong.mp3">"Too Sick for Kissing?" - Partial</a>
 
     This leaves 15 songs as lost media. 
 
