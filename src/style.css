@@ -123,7 +123,7 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  background-image: url('assets/css/bg.png');
+  background-image: url('/assets/css/bg.png');
   font-weight: 700;
   font-family: "Courier New";
   color: #222; }
