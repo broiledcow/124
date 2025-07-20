@@ -1,0 +1,11 @@
+            <ul role="list">
+                {% for post in collections.all %}
+                    {% if post.data.artist == "The Cleaners From Venus" %}
+                        <li>
+                            <a href="{{ post.url }}">
+                                {{ post.data.name }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {%- endfor -%}
+            </ul> 

@@ -1,12 +1,14 @@
+      <p style="display: inline;">
+        {{year}} {{type}} by
+        {% set comma = joiner() %}
+        {% for tag in artist -%}
+          {% if tag !== 'artist' %}
+            {{ comma() }} <span class="tag"><a href="/articles/artists/{{ tag | slug}}">{{ tag }}</a></span>
+          {% endif %}
+        {%- endfor %}
+      </p>
+      <br><br>
       <p>
-      Of: 
-      {% set comma = joiner() %}
-      {% for tag in of -%}
-        {% if tag !== 'posts' %}
-          {{ comma() }} <span class="tag"><a href="/articles/artists/{{ tag | slug}}">{{ tag }}</a></span>
-        {% endif %}
-      {%- endfor %}
-      <br>
       Genre: 
       {% set comma = joiner() %}
       {% for tag in genre -%}
@@ -22,7 +24,7 @@
           {{ comma() }} <span class="tag"><a target="_blank" href="/{{ tag }}">{{ tag }}</a></span>
         {% endif %}
       {%- endfor %}
-
+        </p>
 
 
 

@@ -4,25 +4,16 @@ permalink: "articles/artists/{{ name |slug }}/"
 ---
 
 
-
     <main>
       <div style="padding: 5%;" class="row">
         <div id="nuh" class="one-third column">
-          <div>
           <h1>{{ name }}</h1>
           <img style="width: 80%;" src="/assets/pfps/{{ name | slug}}.jpg" alt="{{ thumbAlt }}">
           <!--this bit below loads tag links. very scary shit. don't mess with these again-->
           {% include 'artistArticleTaglinks.njk' %}
-          </div>
-          <div>
-            <p>{{ content | safe }}</p>
-            <p>{{ the-cleaners-from-venus.njk }}</p>
-          </div>
+          {% include 'releaselist.njk' %}
         </div>
-
-         </p>
-        </div>
-        
-
+        {% include 'aside.njk' %}
       </div>
+
       </main>

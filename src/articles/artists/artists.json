@@ -2,3 +2,4 @@
     "tags": ["article", "artists"],
     "layout": "artistArticle.njk"
 }
+

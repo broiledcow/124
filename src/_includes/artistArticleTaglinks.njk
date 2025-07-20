@@ -3,7 +3,7 @@
       {% set comma = joiner() %}
       {% for tag in members -%}
         {% if tag !== 'posts' %}
-          {{ comma() }} <span class="tag"><a target="_blank" href="/articles/individuals/{{ tag | slug}}/">{{ tag }}</a></span>
+          {{ comma() }} <span class="tag"><a href="/articles/artists/{{ tag | slug}}/">{{ tag }}</a></span>
         {% endif %}
       {%- endfor %}
       <br>
