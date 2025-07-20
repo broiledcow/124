@@ -4,17 +4,20 @@ layout: artistArticle.njk
 genre:
     - Indie Rock
     - Jangle Pop
-    - Blah Blah Blah
+    - Lo-Fi
 members:
     - Martin Newell
-    - Lawrence "Lol" Elliot
+    - Lawrence Elliot
     - Giles Smith
+    - Dave Allen
+    - John Butters
+    - Michael Natkanski
+    - Peter Nice
 yearsActive: 
-    - 1980s
-    - 1990s
-    - 2010s
-    - 2020s
-thumbAlt: The cleaners from venus in xxxx
+    - 1980-87
+    - 1990
+    - 2010-present
+thumbAlt: Photo of the cleaners
 description: An innovative lo-fi group from the early 80's
 tags: 
 ---

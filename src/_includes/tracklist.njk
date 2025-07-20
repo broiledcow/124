@@ -1,10 +1,17 @@
       
       <h5 style="inline">Tracks on "{{ name }}"
         <br><sup><sup><sup><mark>{{tracklistnotes}}</mark></sup></sup></sup>
-        <sup>{% for tag in tracklist -%}
+        <sup><br><mark>{{side1}}</mark> {% for tag in tracklistA -%}
         {% if tag !== 'posts' %}
           <br><span class="tag">{{ tag }}</span>
         {% endif %}
       {%- endfor %}
         </sup>
-      </h5>
+        <sup><br><mark>{{side2}}</mark>
+        <sup>{% for tag in tracklistB -%}
+        {% if tag !== 'posts' %}
+          <br><span class="tag">{{ tag }}</span>
+        {% endif %}
+      {%- endfor %}
+        </sup>
+    </h5>

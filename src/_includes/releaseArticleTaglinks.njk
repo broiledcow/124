@@ -16,21 +16,4 @@
           {{ comma() }} <span class="tag">{{ tag }}</span>
         {% endif %}
       {%- endfor %}
-      <br>
-      Years Active: 
-      {% set comma = joiner() %}
-      {% for tag in yearsActive -%}
-        {% if tag !== 'posts' %}
-          {{ comma() }} <span class="tag"><a target="_blank" href="/{{ tag }}">{{ tag }}</a></span>
-        {% endif %}
-      {%- endfor %}
-        </p>
-
-
-
-
-
-
-
-
       </p>

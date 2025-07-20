@@ -4,13 +4,22 @@ type: album
 genre:
     - Indie Rock
     - Jangle Pop
-    - Blah Blah Blah
+    - Lo-Fi
 tracklistnotes:
     - Watch out! This release has alternate track listings!
-tracklist:
-    - track 1
-    - track 2
-    - track 3
+side1: Pop Side
+tracklistA:
+    - This Rainy Decade
+    - Time In Vain
+    - Only A Shadow
+    - Corridor Of Dreams
+    - Wivenhoe Bells II
+side2: Art Side
+tracklistB:
+    - Midnight Cleaners
+    - Factory Boy
+    - A Wretched Street
+    - Don't You Worry About The Ads   
 artist:
     - The Cleaners From Venus
 date: "1981-01-02"
