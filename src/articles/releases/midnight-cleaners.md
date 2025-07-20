@@ -6,7 +6,6 @@ genre:
     - Jangle Pop
     - Lo-Fi
 tracklistnotes:
-    - Watch out! This release has alternate track listings!
 side1: Pop Side
 tracklistA:
     - This Rainy Decade
@@ -22,8 +21,8 @@ tracklistB:
     - Don't You Worry About The Ads   
 artist:
     - The Cleaners From Venus
-date: "1981-01-02"
-year: 1981
+date: "1982-01-01"
+year: 1982
 thumbAlt: Midnight Cleaners album cover
 description: An innovative lo-fi group from the early 80's
 ---
