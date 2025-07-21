@@ -22,10 +22,10 @@ tracklistB:
     - Don't You Worry About The Ads   
 artist:
     - The Cleaners From 
-date: "1982-01-01"
+date: "1982-11-01"
 year: 1982
 thumbAlt: Midnight Cleaners album cover
-description: An innovative lo-fi group from the early 80's
+description: The Cleaners From Venus' third album
 tags:
     - thecleanersfromvenus
 ---

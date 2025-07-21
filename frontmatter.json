@@ -1,0 +1,117 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "name",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "whoa",
+          "name": "whoa",
+          "type": "string"
+        },
+        {
+          "title": "genre",
+          "name": "genre",
+          "type": "string",
+        },
+        {
+          "title": "tracklistnotes",
+          "name": "tracklistnotes",
+          "type": "datetime"
+        },
+        {
+          "title": "side1",
+          "name": "side1",
+          "type": "string"
+        },
+        {
+          "title": "tracklistA",
+          "name": "tracklistA",
+          "type": "choice",
+          "choices": [
+            "This Rainy Decade",
+            "Time In Vain",
+            "Only A Shadow",
+            "Corridor Of Dreams",
+            "Wivenhoe Bells II"
+          ]
+        },
+        {
+          "title": "side2",
+          "name": "side2",
+          "type": "string"
+        },
+        {
+          "title": "tracklistB",
+          "name": "tracklistB",
+          "type": "choice",
+          "choices": [
+            "Midnight Cleaners",
+            "Factory Boy",
+            "A Wretched Street",
+            "Don't You Worry About The Ads"
+          ]
+        },
+        {
+          "title": "artist",
+          "name": "artist",
+          "type": "choice",
+          "choices": [
+            "The Cleaners From"
+          ]
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "year",
+          "name": "year",
+          "type": "number"
+        },
+        {
+          "title": "thumbAlt",
+          "name": "thumbAlt",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "11ty",
+  "frontMatter.preview.host": "http://localhost:8080",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/src/articles/artists",
+      "title": "artists"
+    },
+    {
+      "path": "[[workspace]]/src/articles/releases"
+    },
+    {
+      "path": "[[workspace]]/src/articles/artists"
+    }
+  ]
+}

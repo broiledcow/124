@@ -8,12 +8,12 @@
       {%- endfor %}
         </sup>
         <sup><br><mark>{{side2}}</mark>
-        <sup>{% for tag in tracklistB -%}
+        {% for tag in tracklistB -%}
         {% if tag !== 'posts' %}
           <br><span class="tag">{{ tag }}</span>
         {% endif %}
       {%- endfor %}
-        </sup>
+        
     </h5>
 
 

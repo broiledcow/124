@@ -19,14 +19,14 @@ yearsActive:
   - 1990
   - 2010-present
 thumbAlt: Photo of the cleaners
-description: An innovative lo-fi group from the early 80's
+description: An Indie Rock group from the early 80's
 tags:
   - thecleanersfromvenus
 ---
 
 
 
-The <mark>**Cleaners from Venus</mark>** are a British Lo-Fi band formed in Wivenhoe, England in 1980 by Martin Newell and Lawrence Elliot. They are known for their unique musical style, inspired by "mid-1960s pop influences, driven by punk energy".
+The <mark>**Cleaners from Venus</mark>** are a British Lo-Fi band formed in Wivenhoe, England in 1980 by Martin Newell and Lawrence Elliot. They are known for their musical style, inspired by "mid-1960s pop influences, driven by punk energy".
 
 
 
@@ -62,7 +62,7 @@ The bankruptcy of Ammunition Communications later the same year marked the effec
 
 
 
-In 1990 Newell released <mark>Number 13 on cassette</mark>, some songs being later re-recorded for his 1993 solo studio album <mark>The Greatest Living Englishman</mark>.
+Martin Newell would continue to occasionally release music as 'The Cleaners From Venus'. In 1990 he released <mark>Number 13 on cassette</mark>, some songs being later re-recorded for his 1993 solo studio album <mark>The Greatest Living Englishman</mark>.
 
 
 
@@ -70,12 +70,11 @@ In 1990 Newell released <mark>Number 13 on cassette</mark>, some songs being lat
 
 
 
-Though the *Cleaners* fell into relative obscurity after their 1988 breakup, they have since gained an online cult following, beginning in the early 2000's. In 2010, Martin Newell returned to making music under the *Cleaners* name,
+Though the *Cleaners* fell into relative obscurity after their 1988 breakup, they have since gained an online cult following, beginning in the early 2000's. In 2010, Martin Newell returned to making music under the *Cleaners* name, and has released a dizzying number of albums since then. Most have surpassed the confines of cassette, and the scope of this website, but you should still check them out. 
 
 
 
 *The Cleaners From* Venus has since been recognized as an influential figure in the early Cassette Culture and Home Recording movements, influencing artists such as <mark>Mac DeMarco</mark> and <mark>Cults</mark>, as well as receiving accolades from other notable cassette culture figures, such as <mark>R. Stevie Moore</mark>.
-
 
 
 ##### Sources / Further Reading:
@@ -85,4 +84,3 @@ The Cleaners From Venus Website
 "Life in Music", by Giles Smith (A great book)
 
 "The Jangling Man" Documentary
-

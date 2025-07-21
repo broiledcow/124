@@ -3,10 +3,10 @@
                 {% for tag in tags | exclude("artists") | exclude("articles") %}
                 {%- set tagColl = collections[tag] | excludeFromCollection(page.url) -%}
                     {%- if tagColl | length %}
-                        <h3>Music by {{ name }}</h3>
+                        <h3>Tape by<wbr> {{ name }}</h3>
                         <ul>
                             {%- for post in tagColl -%}
-                                <li><a href="{{ post.url }}">{{ post.data.name }}</a></li>
+                                <ul><a id="releaselist" href="{{ post.url }}">{{ post.data.name }}</a></ul>
                             {%- endfor -%}
                         </ul>
                     {%- endif %}

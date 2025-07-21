@@ -34,9 +34,10 @@ tracklistB:
     - University Challenge
 artist:
     - The Cleaners From Venus
-date: "1981-01-01"
+date: "1981-04-01"
 year: 1981
 thumbAlt: Blow Away Your Troubles album cover
+description: The Cleaners From Venus' first album
 tags:
     - thecleanersfromvenus
 ---
@@ -55,7 +56,11 @@ The recording process of Blow Away Your Troubles was horrifyingly primitive, eve
 
 
 
-##### Track Listing / Lost and Obscure Songs 
+
+
+
+
+##### Track Listing Weirdness/ Lost and Obscure Songs 
 
 
 The release process was equally confused- lacking any set track listing, early batches of *Blow Away Your Troubles* consisted of whatever tracks Lawrence Elliot felt like including at the time, though this eventually was solidified into a static lineup \[featured in the sidebar]. 
@@ -105,10 +110,10 @@ In 2012, Captured Tracks released a special vinyl edition of *Blow Away Your Tro
     <br><a target="_blank" href="/assets/audio/heydreamer.mp3">Hey Dreamer</a>
     <br><br><mark>"Noncanonical" songs</mark>
     <br>Look At The Wall
-    <br>The Meltdown Watutsi [Known to exist, in posession of Lawrence Elliot]
-    <br><a target="_blank" href="/assets/audio/unknowncleanersfromvenussong.mp3">"Too Sick for Kissing?" - Partial</a>
+    <br>The Meltdown Watutsi [Copy in posession of Lawrence Elliot]
+    <br><a target="_blank" href="/assets/audio/unknowncleanersfromvenussong.mp3">"Too Sick for Kissing?" - Partial [really good too]</a>
 
-    This leaves 15 songs as lost media. 
+    This leaves 15 ish songs as lost media. 
 
 </p>
 
