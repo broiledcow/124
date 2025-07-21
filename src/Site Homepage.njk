@@ -2,6 +2,9 @@
 title: 1-2-4
 layout: "base.njk"
 permalink: "/index.html"
+tags:
+  - releases
+  - artists
 ---
 <div id="center" class="row">
   <h1>One True Faith</h1>
@@ -25,14 +28,18 @@ permalink: "/index.html"
       </h5>
       </ul>
     </div>
+
     <div style="background: rgba(177, 133, 97, 0.25);" class="one-half column">
       <h3>Releases</h3>
-      <ul><h5>
-      {% for post in collections.releases %}
-        <li><a href="articles/releases/{{ post.data.name | slug }}/">{{ post.data.name }}</a></li>
-      {% endfor %}
-      </h5>
-      </ul>
+                {%- for post in collections.releases -%}
+                    {% if post.data.artist !== this.page.data.name %}
+                        <li>
+                            <a href="{{ post.url }}">
+                                {{ post.data.name }} - {{ post.data.year }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {%- endfor -%}
     </div>
   </div>
 

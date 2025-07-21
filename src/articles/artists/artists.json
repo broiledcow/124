@@ -1,5 +1,5 @@
 {
-    "tags": ["article", "artists"],
+    "tags": ["articles", "artists"],
     "layout": "artistArticle.njk"
 }
 

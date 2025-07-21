@@ -1,4 +1,4 @@
 {
-    "tags": ["article", "releases"],
+    "tags": ["articles", "releases"],
     "layout": "releaseArticle.njk"
 }

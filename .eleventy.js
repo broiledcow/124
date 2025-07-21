@@ -19,16 +19,7 @@ module.exports = function(eleventyConfig) {
   	eleventyConfig.addShortcode("excerpt", (article) => extractExcerpt(article));
 	eleventyConfig.addNunjucksFilter("excludeFromCollection", function (collection=[], pageUrl=this.ctx.page.url) {return collection.filter(post => post.url !== pageUrl);});
 	eleventyConfig.setDataDeepMerge(true);	
-	eleventyConfig.addCollection("postsChron", (collection) =>
-		collection.getFilteredByGlob("articles/releases/*.md").sort((a, b) => {
-		if (a.data.year > b.data.year) return -1;
-		else if (a.data.year < b.data.year) return 1;
-		else return 0;
-		})
-);
-
-
-
+	eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== exclude))
 
 	
 	// genre sorting and other thigns NOT in tags! below
@@ -43,4 +34,4 @@ module.exports = function(eleventyConfig) {
 		}
 	};
 }
-
+	

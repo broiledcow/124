@@ -21,7 +21,7 @@ yearsActive:
 thumbAlt: Photo of the cleaners
 description: An innovative lo-fi group from the early 80's
 tags:
-
+  - thecleanersfromvenus
 ---
 
 

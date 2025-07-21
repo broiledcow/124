@@ -1,5 +1,5 @@
 ---
-name: Blow Away Your Troubles
+name: Songs For A Fallow Land
 type: album
 genre:
     - Indie Rock
@@ -39,6 +39,7 @@ year: 1981
 thumbAlt: Blow Away Your Troubles album cover
 tags:
     - thecleanersfromvenus
+    - martinnewell
 ---
 
 <mark>Blow Away Your Troubles</mark> is the debut album by British Indie Rock band <mark>The Cleaners From Venus</mark>.
