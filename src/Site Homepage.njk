@@ -13,9 +13,9 @@ tags:
   <div class="one-third column"><h1></h1></div>
   <div class="one-third column">
     <p><mark>One True Faith</mark> is a passion project to document cool or obscure indie tape 
-    releases. It's 1/3 fan-site, 1/3 rarity archive, and 1/3 history book. kiiinda. 
+    releases. It's 1/3 fan-site, 1/3 rarity archive, and 1/3 history book. <br><br> kiiinda. 
     <br><br>If <mark>you</mark> know of a dope indie tape release, have a <a href="./mostwanted/">wanted track</a>, or know cool info I've missed, 
-    dm me on twitter! <a href="https://x.com/Jack_Clark_Ross">[@Jack_Clark_Ross]</a>
+    dm me on twitter! <a target="_blank" href="https://x.com/Jack_Clark_Ross">[@Jack_Clark_Ross]</a>
     </p>
   </div>
   <div class="one-third column"><h1></h1></div>
@@ -24,10 +24,10 @@ tags:
 <div style="margin-left: 10%; margin-right: 10%;" class="row">
 
     <div style="background: rgba(97, 118, 177, 0.25);" class="one-half column">
-      <h3>Artists</h3>
-      
+      <h3>the <a href="/articles/releases/">Artists</a> page</h3>
+      <h5>recent additions:</h5>
       <ul><h5>
-      {% for post in collections.artists %}
+      {% for post in collections.artists | head(-6) %}
         <ul><a href="articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a><br><sup>{{ post.data.description }}</sup></ul>
       {% endfor %}
       </h5>
@@ -35,9 +35,10 @@ tags:
     </div>
 
     <div style="background: rgba(177, 133, 97, 0.25);" class="one-half column">
-      <h3>Tapes [by year]</h3>
+      <h3>the <a href="/articles/releases/">Releases</a> page</h3>
+      <h5>recent additions:</h5>
       <ul><h5>
-      {% for post in collections.releases %}
+      {% for post in collections.releases | head(-6) %}
         <ul><a href="articles/releases/{{ post.data.name | slug }}/">{{ post.data.name }}</a>  - {{ post.data.year }}<br><sup>{{ post.data.description }}</sup></ul>
       {% endfor %}
       </h5>

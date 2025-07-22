@@ -19,7 +19,7 @@ yearsActive:
   - 1990
   - 2010-present
 thumbAlt: Photo of the cleaners
-description: An Indie Rock group from the early 80's
+description: A prolific Indie Rock group from the early 80's
 tags:
   - thecleanersfromvenus
 ---

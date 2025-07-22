@@ -20,7 +20,14 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addNunjucksFilter("excludeFromCollection", function (collection=[], pageUrl=this.ctx.page.url) {return collection.filter(post => post.url !== pageUrl);});
 	eleventyConfig.setDataDeepMerge(true);	
 	eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== exclude))
+	// Get the first n elements of a collection.
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (n < 0) {
+      return array.slice(n)
+    }
 
+    return array.slice(0, n)
+  })
 	
 	// genre sorting and other thigns NOT in tags! below
 

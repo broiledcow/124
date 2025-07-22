@@ -12,7 +12,7 @@ members:
 yearsActive:
   - 1988-90
 thumbAlt: Photo of the lizards
-description: An innovative lo-fi group from the early 80's
+description: The Indie-Rockin' Spiritual-Successor to The Cleaners From Venus
 tags: thebrotherhoodoflizards
 
 ---

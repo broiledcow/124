@@ -14,6 +14,7 @@ yearsActive:
     - 2010s
     - 2020s
 thumbAlt: The cleaners from venus in xxxx
+description: Early cassette culture pioneer; British R. Stevie Moore
 tags: 
     - martinnewell
 ---
