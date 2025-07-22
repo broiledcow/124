@@ -1,8 +1,6 @@
-
 const { DateTime } = require("luxon");
 const fs = require('fs')
 const matter = require('gray-matter')
-
 // all the stuff above HAS to be above
 
 module.exports = function(eleventyConfig) {

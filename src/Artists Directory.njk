@@ -13,8 +13,11 @@ layout: "base.njk"
         <sub>[in no parteciler ordir]</sub>
       </h3>
       <ul><h5>
-      {% for post in collections.artists %}
-        {% include 'ArtistDirectoryListing.njk' %}
+      {% for post in collections.artists | head(-4) %}
+      <div style="margin: 1%;" class="row">
+        <div class="one-half column">{% include 'ArtistDirectoryListing.njk' %}</div>
+        <div class="one-half column">{% include 'ArtistDirectoryListingImage.njk' %}</div>
+      </div>
       {% endfor %}
       </h5>
       </ul>

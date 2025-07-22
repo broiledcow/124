@@ -13,8 +13,11 @@ layout: "base.njk"
         <sub>[bay yeair]</sub>
       </h3>
       <ul><h5>
-      {% for post in collections.releases %}
-        {% include 'ReleaseDirectoryListing.njk' %}
+      {% for post in collections.releases | head(-4) %}
+      <div style="margin: 1%;" class="row">
+        <div class="one-half column">{% include 'ReleaseDirectoryListing.njk' %}</div>
+        <div class="one-half column">{% include 'ReleaseDirectoryListingImage.njk' %}</div>
+      </div>
       {% endfor %}
       </h5>
       </ul>
