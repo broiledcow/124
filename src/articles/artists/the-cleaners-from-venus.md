@@ -70,7 +70,7 @@ Martin Newell would continue to occasionally release music as 'The Cleaners From
 
 
 
-Though the *Cleaners* fell into relative obscurity after their 1988 breakup, they have since gained an online cult following, beginning in the early 2000's. In 2010, Martin Newell returned to making music under the *Cleaners* name, and has released a dizzying number of albums since then. Most have surpassed the confines of cassette, and the scope of this website, but you should still check them out. 
+Though the *Cleaners* fell into relative obscurity after their 1988 breakup, they have since gained an online cult following, beginning in the early 2000's. In 2010, Martin Newell returned to making music under the *Cleaners* name, and has released a dizzying number of albums since then. Most have surpassed the confines of cassette, and thus the scope of this site, but you should still check them out. 
 
 
 

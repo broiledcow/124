@@ -12,7 +12,7 @@ members:
 yearsActive:
   - 1988-90
 thumbAlt: Photo of the lizards
-description: A 
+description: One of Mark Winter's many egg-punk projects
 tags: thebrotherhoodoflizards
 ---
 

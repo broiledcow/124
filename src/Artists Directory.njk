@@ -7,14 +7,14 @@ layout: "base.njk"
 ---
 <br><br>
     <div class="two columns"><h1></h1></div>
-    <div style="text-align: center; background: rgba(97, 118, 177, 0.25);" class="five columns">
+    <div style="text-align: center; background: rgba(177, 97, 97, 0.25);" class="five columns">
       <h3 style="display: inline;">
         Artists
         <sub>[in no parteciler ordir]</sub>
       </h3>
       <ul><h5>
       {% for post in collections.artists %}
-        <ul><a href="/articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a><br><sup>{{ post.data.description }}</sup></ul>
+        {% include 'ArtistDirectoryListing.njk' %}
       {% endfor %}
       </h5>
       </ul>

@@ -21,28 +21,33 @@ tags:
   <div class="one-third column"><h1></h1></div>
 </div>
 
-<div style="margin-left: 10%; margin-right: 10%;" class="row">
-
-    <div style="background: rgba(97, 118, 177, 0.25);" class="one-half column">
-      <h3>the <a href="/articles/releases/">Artists</a> page</h3>
+  <div id="frontpagelistblock" class="row">
+    <div id="frontpagelist" style="background: rgba(97, 118, 177, 0.25);" 
+    class="one-half column">
+      <h3>the <a href="/articles/artists/">Artists</a> page</h3>
       <h5>recent additions:</h5>
       <ul><h5>
-      {% for post in collections.artists | head(-6) %}
-        <ul><a href="articles/artists/{{ post.data.name | slug }}/">{{ post.data.name }}</a><br><sup>{{ post.data.description }}</sup></ul>
+      {% for post in collections.artists | head(-4) %}
+      <div style="margin: 1%;" class="row">
+        <div class="one-half column">{% include 'ArtistDirectoryListing.njk' %}</div>
+        <div class="one-half column">{% include 'ArtistDirectoryListingImage.njk' %}</div>
+      </div>
       {% endfor %}
       </h5>
       </ul>
     </div>
-
-    <div style="background: rgba(177, 133, 97, 0.25);" class="one-half column">
+    <div id="frontpagelist" style="background: rgba(177, 133, 97, 0.25);" 
+    class="one-half column">
       <h3>the <a href="/articles/releases/">Releases</a> page</h3>
       <h5>recent additions:</h5>
       <ul><h5>
-      {% for post in collections.releases | head(-6) %}
-        <ul><a href="articles/releases/{{ post.data.name | slug }}/">{{ post.data.name }}</a>  - {{ post.data.year }}<br><sup>{{ post.data.description }}</sup></ul>
+      {% for post in collections.releases | head(-4) %}
+      <div style="margin: 1%;" class="row">
+        <div class="one-half column">{% include 'ReleaseDirectoryListing.njk' %}</div>
+        <div class="one-half column">{% include 'ReleaseDirectoryListingImage.njk' %}</div>
+      </div>
       {% endfor %}
       </h5>
       </ul>
     </div>
   </div>
-
